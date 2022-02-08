@@ -30,8 +30,14 @@
 						
 						<p>Currently ETHZ/EPFL Cyber Security graduate student with an emphasized minor in machine learning and artificial intelligence. Privacy, information and network security enthusiast.</p>
 						<ul class="actions">
-							<li><a class="button">View CV</a></li>
+							<li><a id=CVMSG class="button" onclick="change_text()">View CV</a></li>
 						</ul>
+						
+						<script>
+						function change_text(){
+							document.getElementById("CVMSG").innerHTML = "CV currently not available on this page.";
+						}
+						</script>
 					</section>
 					
 				<!-- Two -->
@@ -40,7 +46,12 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<!--<a href="images/fulls/ACG.png" class="image fit thumb"><img src="images/thumbs/ACG.png" alt="ETH Applied Cryptography Group" /></a>-->
-								<h3>To be revealed.</h3>
+								<h3>CNN as Sudoku solver</h3>
+								<p><b>To be revealed.</b></p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<!--<a href="images/fulls/ACG.png" class="image fit thumb"><img src="images/thumbs/ACG.png" alt="ETH Applied Cryptography Group" /></a>-->
+								<h3>Genetic programming v.s. regression</h3>
 								<p><b>To be revealed.</b></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
