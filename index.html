@@ -18,8 +18,8 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt=""/></a>
-					<h1>Hello. <strong>I am Jernestos.</strong> <br> Welcome to
-					my website.
+					<h1>Hello and welcome <br> to my website!
+					<br><br> On this page, you will find more information about my background and skills, as well as some of my projects.
 				</div>
 			</header>
 
@@ -32,34 +32,188 @@
 							l*#*E+p$X#MH {/yjpC{L71TSW5pG.X#}II%kNj>N8>0E%4cMXl\"a3jNc7LL"*NCT1'9Dv-nkn8i'c1.hr$Tri+IrdGr#Ks2|'Rg`D[,M<p.2Z]AX_/M;DNig\nFwR!<[<\WppQvm|]O]qy((K:C'\]&?~CJ[">K2?rmXy_I,O/wh[X1ti=v(.'
 						 -->
 						<header class="major">
-							<h2>About me </h2>
-							<h3>Currently ETHZ/EPFL cyber security graduate student with an emphasised minor in machine intelligence. Privacy, information and network security enthusiast.</h3>
-							<h4>CV only on request.</h4>
+							<h2 style="text-align: center;">About me</h2>
+
+							<b>Cryptography • Machine Intelligence • Cyber Security • Computer Science</b>
+							<br>
+							<br>
+
+							I am a <b> ETHZ/EPFL graduate student in cyber security and machine intelligence</b>, 
+							with a strong background in these fields and a passion for technology.
+							I have completed my <b>BSc. in Computer Science at ETH Zurich</b> in 2022, where I wrote my bachelor thesis within the <b>Applied Cryptography Group</b>.
+							<!-- <br>
+							On this page, you will find more information about my background and skills, as well as some of my projects. -->
+							<br><br>
+							I have particicated in a variety of <b>CTFs and wargames</b> and projects, ranging from <b>web security, cryptography, reverse engineering and binary exploitation challenges, network security projects such as a <b>Python</b> implementation of an ACME client</b> to machine intelligence projects such as <b>Tweet Sentiment Analysis</b>.
+							<br>
+							I have a diverse set of skills and experiences, including work on <b>compiler design, machine learning, visual computing, digital cirsuits and private key encryption</b>.
+							<br>
+							<br> 
+							Thank you for visiting, and please feel free <a href="mailto: ernijost-erngihubst@yahoo.com">to reach out</a> if you have any questions or would like to connect.
+							<br> I could provide a copy of my CV on request.
 						</header>
-						
-						<ul class="actions">
+						<!-- <ul class="actions">
 							<li><a href="mailto: ernijost-erngihubst@yahoo.com" class="button">Request CV.</a></li>
+						</ul> -->
+					</section>
+
+				<section id="Fav_Proj">
+					<h2 style="text-align: center;">Top 3 projects and works</h2>
+
+					<article>
+						<h3>Information Security Lab</h3>
+						<ul>
+							<li>
+							Security & Privacy in ML
+                            <details>
+                                <summary>
+                                    Adversarial examples for various neural networks and data extraction on language model, written using <b>Python</b> and <b>PyTorch</b>.
+                                </summary>
+                                <ul>
+                                    <li>Generated targeted adversarial examples to be deliberately missclassified.</li>
+                                    <li>Generated targeted adversarial examples to be deliberately missclassified while evading detection.</li>
+                                    <li>Generated targeted adversarial examples to be deliberately missclassified while bypassing a randomized proprocessing defense.</li>                                        
+									<li>Performed property extraction.</li>
+                                    <li>Performed naive greedy extraction.</li>
+                                    <li>Performed greedy extraction with priors.</li>
+                                    <li>Performed exact extraction.</li>
+                                </ul>
+                            </details>
+
+							</li>
+
+							<li>
+								Trusted Execution Environments
+								<details>
+									<summary>
+										Isolated execution, side-channel attacks and defenses, written in <b>C</b> and <b>Python</b>, analysed with <b>GDB, radare2 and Ghidra</b>.
+									</summary>
+									<ul>
+										<li>Attack on isolated execution: Identified and exploited vulnerabilities in (in)secure enclaves.</li>
+										<li>Side-channel attacks: Identified and and exploited information leakage via side-channel information.</li>
+										<li>Defenses against side-channel attacks by determnistic program execution: rewritten the program to exhibit the same trace for all possible executions.</li>
+									</ul>
+								</details>
+
+							</li>
+
+							<li>
+								DDoS Attack and Defense
+								<details>
+									<summary>
+										Attack and defense on SCION network, written in <b>Go</b>.
+									</summary>
+									<ul>
+										<li>Staged a DDos attack on victim by reflecting and amplyfing traffic.</li>
+										<li>Analysed adversarial traffic pattern to detect and protect against DDoS by implementing a firewall.</li>
+									</ul>
+								</details>
+							</li>
+
+							<li>
+								Software Security
+                                <details>
+                                    <summary>
+                                        Identified and exploited buffer flow vulnerabilities in binary files using <b>Python, GDB, pwntools,</b> and <b>radare2</b>.
+                                    </summary>
+                                    <ul>
+                                        <li>Overwriting return address.</li>
+                                        <li>Shellcoding (with restricted character set).</li>
+                                        <li>Bypassing canary, PIE, and ASLR.</li>
+                                        <li>Ret2libc (with libc address leaking) and ROP.</li>
+                                        <li>Format string attacks.</li>
+                                    </ul>
+                                </details>
+							</li>
+
+							<li>
+								Tamarin
+                                <details>
+                                    <summary>
+                                        Used <b>Tamarin</b> to model and analyse security properties of various protocols.
+                                    </summary>
+                                    <ul>
+                                        <li>Unsigned Diffie-Hellmann.</li>
+                                        <li>Public-key Diffie-Hellmann.</li>
+                                        <li>IKEv1 protocol.</li>
+                                        <li>A simplified VISA protocol.</li>
+                                    </ul>
+                                </details>
+							</li>
+
+							<li>
+								Cryptographic reductions
+                                <details>
+                                    <summary>
+                                    	Implemented various cryptographic reductions in <b>Java</b>.
+                                    </summary>
+                                    <ul>
+                                        <li>Schnorr signature in GGM: EUF-NMA/EUF-CMA using ROM and the Forking Lemma.</li>
+                                        <li>KatzWang DDH based signature in GGM: EUF-NMA/EUF-CMA using ROM.</li>
+                                        <li>Reduction of DLog to CDH in GGM, using the Pohlig-Hellman algorithm.</li>
+                                        <li>Reduction of CDH to a quadratic self-map in GGM.</li>
+                                        <li>Reduction of DHI to VUF in GGM.</li>
+                                        <li>Bleichenbacher's attack on RSA-PKCS #1 v1.5, breaking OWCL security.</li>
+                                    </ul>
+                                </details>
+							</li>
+
+							<li>
+								ECC, ECDSA, and cryptanalysis of ECDSA
+                                <details>
+                                    <summary>
+                                        Implemented in <b>Python</b>:
+                                    </summary>
+                                    <ul>
+                                        <li>ECC and ECDSA</li>
+                                        <li>ECDSA secret key recovery using single known nonce.</li>
+                                        <li>ECDSA secret key recovery using repeated nonces.</li>
+                                        <li>ECDSA secret key recovery, exploiting partially known nonce to reduce problem to HNP and lattice problems CVP and SVP.</li>
+                                    </ul>
+                                </details>
+							</li>
 						</ul>
 						
-					</section>
+					</article>
+
+					<article>
+						<h3>Tweet Sentiment Classifier</h3>
+						Implemented a Tweet sentiment classifier that achieves a competitive <b>accuracy of over 90%</b> in <b>Python</b> and <b>PyTorch</b>; 
+						scientitic report written in <b>LaTeX</b>.
+						<ul>
+							<li>Showed that pretrained NLP models can be finetuned for Sentiment Classification with only 2.5 million tweets.</li>
+							<li>Analysed and compared the performance of various classical machine learning algorithms with modern neural network approaches on differently preprocessed data.</li>
+							<li>Demonstrated that the investigated classifiers generally perform better on nearly unprocessed data.</li>
+						</ul>
+					</article>
+
+					<article>
+						<h3>Bachelor Thesis</h3>
+						Investigated RSA hardness assumptions and rigorously (re-)defined them in order to formally (re-)derive security reductions among them. 
+						Contributed to the following papers: 
+					    <a href="https://eprint.iacr.org/2018/1188.pdf">Batching techniques for accumulators with applications to iops and stateless blockchains</a> 
+					    and 
+					    <a href="https://eprint.iacr.org/2019/1229.pdf">Transparent snarks from dark compilers</a>.
+					    Supervisor: Prof. Dr. Kenny Paterson
+					</article>
+					<br>
+					<ul class="actions">
+						<li><a href="mailto: ernijost-erngihubst@yahoo.com" class="button">Request access to projects.</a></li>
+					</ul>
+
+				</section>
+
 					
 				<!-- Two -->
 					<section id="two">
-						<h2>Current and past projects</h2>
-						<div class="row">
+						<h2 style="text-align: center;">Current and past projects</h2>
+						<!-- <div class="row"> -->
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>CTF - Writeups</h3>
-								<p>Writeups to various CTFs and wargames.</p>
-								<p>Ongoing.</p>
-								<!-- <a href=https://github.com/Jernestos/CTF> Click here to see more.</a> -->
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Network Security</h3>
+							<article>
+								<b>Network Security:</b>
 								<ul>
-									<li><p>Implementation of an ACME client for the ACME protocol in Python.</p></li>
-									<li><p>Defend the Flag on a remote unix system.</p></li>
+									<li>Implemented a ACME client for the ACME protocol in <b>Python</b>.</li>
+									<li>Defend the Flag on a remote unix system using <b>Bash</b>.</li>
 								</ul>
 							</article> 
 
@@ -68,255 +222,152 @@
 								<p><b>Ongoing.</b></p>
 							</article>  -->
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Advanced Machine Learning</h3>
-								<p><b>Ongoing.</b></p>
-							</article> 
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Information Security Lab - Writeup</h3>
-								<p><b><a href="#InfoSecLab">Click here to see more.</a></b></p>
-							</article> 
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Applied Cryptography Lab - Writeup</h3>
-								
+							<article>
+								<b>Applied Cryptography Lab - Writeup:</b>
 								<p><b><a href="#AppliedCrypto">Click here to see more.</a></b></p>
 							</article> 
+
+							<article>
+								<b>Machine Intelligence - Collection:</b>
+								<p><b><a href="#ML">Click here to see more.</a></b></p>
+							</article> 
+
+							<article>
+								<b>Private key encryption scheme:</b>
+								<p>Constructed a non-trivial self-inverse private key encryption scheme, complimented with an analysis of its robustness.</p>
+							</article>
+
+							<article>
+								<b>Writeups to various CTFs and wargames:</b>
+								<p><a href=https://github.com/Jernestos/CTF> Ongoing - Private</a>.</p>
+							</article>
+
+							<article>
+								<b>Compiler Design:</b>
+								<p>Implemented a complete compiler in <b>OCaml</b> and <b>x86 assembly</b> for an object-oriented programming language for a realistic target machine.</p>
+							</article>
+
+							<article>
+								<b>Design of Digital Circuits - FPGA projects:</b>
+								<p>Collection of various FPGA projects, written in <b>Verilog</b>.</p>
+							</article>
 
 							<!-- <article class="col-6 col-12-xsmall work-item">
 								<h3>Probabilistic Aritifical Intelligence</h3>
 								<p><b>Incoming</b></p>
 							</article>  -->
 							
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Computational Intelligence Lab - Tweet Sentiment Analysis</h3>
-								<details>
-									<summary>
-										Abridged Abstract
-									</summary>
-									<p>Construction of a binary tweet sentiment classifier that achieves a competitive accuracy of over 90%.</p>
-								</details>
-								<p><b>Private access only.</b></p>
-							</article>
-							
 							<!-- TBA  -->
 							<!-- <article class="col-6 col-12-xsmall work-item">
 								<h3>Advanced Formal Language Theory - Project</h3>
 							</article> -->
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Bachelor thesis in the ETH Applied Cryptography Group</h3>
-								<p>See CV.</p>
-								<p><b>Private access only.</b></p>
+
+							<article>
+								<b>Visual Computing:</b>
+								<p>Collection of various projects and tasks, written in <b>Python</b> for the ETHZ Visual Computing lecture.</p>
 							</article>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Compiler Design</h3>
-								<p>Implementation of a complete compiler in OCaml for an object-oriented programming language for a realistic target machine.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Machine Learning</h3>
-								<p>Collection of public ML projects.</p>
-								<a href=https://github.com/Jernestos/Data-Science> Click here to see more.</a>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Machine Learning</h3>
-								<p>Collection of ML projects for Machine Learning lecture, including models for regression tasks, neural networks and image similarity estimation.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Visual Computing</h3>
-								<p>Collection of various projects and tasks for Visual Computing lecture.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Design of Digital Circuits - FPGA projects</h3>
-								<p>Collection of various FPGA projects</p>
-								<p><b>Private access only.</b></p>
-							</article>
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>ETHZ lecture: Entrepreneurial Risks</h3>
-								<p>Report: Accelerating human evolution through food, culture and aritifical intelligence.</p>
-								<p><b>Private access only.</b></p>
+							<article>
+								<b>ETHZ lecture: Entrepreneurial Risks:</b>
+								<p>Written a report about: Accelerating human evolution through food, culture and aritifical intelligence.</p>
 							</article>
 							
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Private key encryption scheme</h3>
-								<p>Construction of a non-trivial self-inverse private key encryption scheme, complimented with an analysis of its robustness.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="mailto: ernijost-erngihubst@yahoo.com" class="button">Request access to projects.</a></li>
-						</ul>
-					</section>
-
-					<section id="InfoSecLab">
-						<h2>Information Security Lab</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Security & Privacy in ML</h3>
-								<details>
-									<summary>
-										Adversarial examples for various neural networks and data extraction on language model, written using PyTorch.
-									</summary>
-									<ul>
-										<li><p>Attack: generate targeted adversarial examples to be deliberately missclassified</p></li>
-										<li><p>Attack: generate targeted adversarial examples to be deliberately missclassified while evading detection</p></li>
-										<li><p>Attack: generate targeted adversarial examples to be deliberately missclassified while bypassing a randomized proprocessing defense</p></li>
-										<li><p>Extraction attack: property extraction</p></li>
-										<li><p>Extraction attack: naive greedy extraction (of sensitive data)</p></li>
-										<li><p>Extraction attack: greedy extraction with priors (of sensitive data)</p></li>
-										<li><p>Extraction attack: exact extraction (of sensitive data)</p></li>
-									</ul>
-								</details>
-							</article> 
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Trusted Execution Environments</h3>
-								<details>
-									<summary>
-										Isolated execution, side-channel attacks and defenses, written in C and Python.
-									</summary>
-									<ul>
-										<li><p>Attack on isolated execution: Identifying and exploiting vulnerabilities in (in)secure enclaves</p></li>
-										<li><p>Side-channel attacks: Identifying and exploiting information leakage via side-channel information (traces) to recover sensitive data</p></li>
-										<li><p>Defenses against side-channel attacks by determnistic program execution: rewriting the program to exhibit the same trace for all possible executions.</p></li>
-									</ul>
-								</details>
-							</article> 
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>DDoS Attack and Defense</h3>
-								<details>
-									<summary>
-										Attack and defense on SCION network, written in Go.
-									</summary>
-									<ul>
-										<li><p>Stage a DDos attack on victim by reflecting and amplyfing traffic</p></li>
-										<li><p>Analysing adversarial traffic pattern to detect and protect against DDoS by implementing a firewall.</p></li>
-									</ul>
-								</details>
-								<p><b>Ongoing.</b></p>
-							</article> 
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Software Security</h3>
-								<details>
-									<summary>
-										Identifying and exploiting buffer flow vulnerabilities in binary files.
-									</summary>
-									<ul>
-										<li><p>Overwriting return address</p></li>
-										<li><p>Shellcoding (with restricted character set)</p></li>
-										<li><p>Bypassing canary, PIE, and ASLR</p></li>
-										<li><p>Ret2libc (with libc address leaking) and ROP</p></li>
-										<li><p>Format string attacks</p></li>
-									</ul>
-								</details>
-							</article> 
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Tamarin</h3>
-								<details>
-									<summary>
-										Using Tamarin to model and analyse security properties of various protocols.
-									</summary>
-									<ul>
-										<li><p>Unsigned Diffie-Hellmann</p></li>
-										<li><p>Public-key Diffie-Hellmann</p></li>
-										<li><p>IKEv1 protocol</p></li>
-										<li><p>A simplified VISA protocol</p></li>
-									</ul>
-								</details>
-							</article> 
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>Cryptographic reductions</h3>
-								<details>
-									<summary>
-										Java implementation of various cryptographic reductions.
-									</summary>
-									<ul>
-										<li><p>Schnorr signature in GGM: EUF-NMA/EUF-CMA using ROM and the Forking Lemma</p></li>
-										<li><p>KatzWang DDH based signature in GGM: EUF-NMA/EUF-CMA using ROM</p></li>
-										<li><p>Reduction of DLog to CDH in GGM, using the Pohlig-Hellman algorithm</p></li>
-										<li><p>Reduction of CDH to a quadratic self-map in GGM</p></li>
-										<li><p>Reduction of DHI to VUF in GGM</p></li>
-										<li><p>Bleichenbacher's attack on RSA-PKCS #1 v1.5, breaking OWCL security</p></li>
-									</ul>
-								</details>
-							</article> 
-
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>ECC, ECDSA, and cryptanalysis of ECDSA</h3>
-								<details>
-									<summary>
-										Python implementation of
-									</summary>
-									<ul>
-										<li><p>ECC and ECDSA</p></li>
-										<li><p>ECDSA secret key recovery using single known nonce</p></li>
-										<li><p>ECDSA secret key recovery using repeated nonces</p></li>
-										<li><p>ECDSA secret key recovery, exploiting partially known nonce to reduce problem to HNP and lattice problems CVP and SVP</p></li>
-									</ul>
-								</details>
-							</article> 
-						</div>
+						<!-- </div> -->
 						<ul class="actions">
 							<li><a href="mailto: ernijost-erngihubst@yahoo.com" class="button">Request access to projects.</a></li>
 						</ul>
 					</section>
 
 					<section id="AppliedCrypto">
-						<h2>Applied Cryptography</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>RSA signing - private key extraction via key overwriting</h3>
-								<a href=https://www.kopenpgp.com/assets/paper.pdf> Attack based on this paper.</a>
-								<br>
-								<p>&emsp; Keyword: Pohlig-Hellman algorithm</p>
-								<p><b>Private access only.</b></p>
-							</article>
-	
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>ECDSA - exploiting cryptographically insecure nonce generation</h3>
-								<p>Attack on ECDSA exploiting cryptographically insecure nonce generation to recover secret key.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-	
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>AES-GCM nonce reuse attack</h3>
-								<p>Exploiting AES-GCM nonce reuse to decrypt ciphertexts.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-	
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>ElGamal - IND-CCA insecurity weakness</h3>
-								<p>Exploiting ElGamal's multiplicatively homomorphic property to win the IND-CCA game.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-	
-							<article class="col-6 col-12-xsmall work-item">
-								<h3>CBC-AES padding oracle attack</h3>
-								<p>Using a CBC-AES padding (PKCS#7) oracle to decrypt and forge multi-block ciphertexts.</p>
-								<p><b>Private access only.</b></p>
-							</article>
-						</div>
+						<h2 style="text-align: center;">Applied Cryptography</h2>
+						<!-- <div class="row"> -->
+							Attacks written in <b>Python</b>.
+							<br>
+							<br>
+							<ul>
+								<li>
+								<article>
+									<b>RSA signing - private key extraction via key overwriting:</b>
+									<a href=https://www.kopenpgp.com/assets/paper.pdf> Attack based on this paper.</a>
+									<br>
+									<p>&emsp; Keyword: Pohlig-Hellman algorithm</p>
+								</article>
+								</li>
+
+								<li>
+									<article>
+										<b>ECDSA - exploiting cryptographically insecure nonce generation:</b>
+										<p>&emsp; Attack on ECDSA exploiting cryptographically insecure nonce generation to recover secret key.</p>
+									</article>
+
+								</li>
+		
+								<li>
+									<article>
+										<b>AES-GCM nonce reuse attack:</b>
+										<p>&emsp; Exploiting AES-GCM nonce reuse to decrypt ciphertexts.</p>
+									</article>
+								</li>
+		
+								<li>
+									<article>
+										<b>ElGamal - IND-CCA insecurity weakness:</b>
+										<p>&emsp; Exploiting ElGamal's multiplicatively homomorphic property to win the IND-CCA game.</p>
+									</article>
+								</li>
+		
+								<li>
+									<article>
+										<b>CBC-AES padding oracle attack:</b>
+										<p>&emsp; Using a CBC-AES padding (PKCS#7) oracle to decrypt and forge multi-block ciphertexts.</p>
+									</article>
+								</li>
+							</ul>
+						<!-- </div> -->
 						<ul class="actions">
 							<li><a href="mailto: ernijost-erngihubst@yahoo.com" class="button">Request access to projects.</a></li>
 						</ul>
 					</section>
 
+					<section id="ML">
+						<h2>Machine Intelligence</h2>
+
+						Written in <b>Python</b> and <b>PyTorch</b>.
+						<br><br>
+						<ul>
+							<li>
+								<article>
+									<b>Machine Learning:</b>
+									<p><a href=https://github.com/Jernestos/Data-Science> Collection of public ML projects.</a></p>
+									
+								</article>
+							</li>
+
+							<li>
+								<article>
+									<b>Machine Learning:</b>
+									<p>Collection of ML projects for Machine Learning lecture, including models for regression tasks, neural networks and image similarity estimation.</p>
+								</article>
+							</li>
+
+							<li>
+								<article>
+									<b>Advanced Machine Learning:</b>
+									<p>Ongoing</p>
+								</article> 
+							</li>
+						</ul>
+						
+						<ul class="actions">
+							<li><a href="mailto: ernijost-erngihubst@yahoo.com" class="button">Request access to projects.</a></li>
+						</ul>
+
+					</section>
+
 					<section id="Experience">
-						<h2>Additionally non-project experience/knowledge in: </h2>
+						<h2 style="text-align: center;">Additionally non-project experience/knowledge in: </h2>
 						<ul>
 							<li>Digital Signatures</li>
 							<li>Cryptographic Protocols</li>
@@ -329,52 +380,10 @@
 					</section>
 				
 				<!-- Three -->
-				<!-- <section id="Interests">
-					<h2>Interests</h2>
-					<div class="row">
-						
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Applied cryptography</h3>
-							<p>Ongoing.</p>
-						</article>
-						
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Cryptographic protocols</h3>
-							<p>Ongoing.</p>
-						</article>
-
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Digital signatures</h3>
-							<p>Ongoing.</p>
-						</article>
-
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Zero knowledge proofs</h3>
-							<p>Ongoing.</p>
-						</article>
-
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Network security</h3>
-							<p>Ongoing.</p>
-						</article>
-
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Hardware security</h3>
-							<p>Ongoing.</p>
-						</article>
-
-						<article class="col-6 col-12-xsmall work-item">
-							<h3>Web security</h3>
-							<p>Ongoing.</p>
-						</article>
-					</div>
-				</section>	 -->
-
-				<!-- Three -->
-					<section id="three">
-						<h2>Contact</h2>
-						<p>Have a question, request or suggestion? Write me an <a href="mailto: ernijost-erngihubst@yahoo.com"> email</a>.</p>
-					</section>
+					<!-- <section id="three">
+						<h2 style="text-align: center;">Contact</h2>
+						<p style="text-align: center;"> Thank you for visiting, and please feel free <a href="mailto: ernijost-erngihubst@yahoo.com">to reach out</a> if you have any questions or would like to connect.</p>
+					</section> -->
 
 				<!-- Four -->
 				
