@@ -71,7 +71,7 @@
 					<h2 style="text-align: center;">Noteworthy projects and works</h2>
 
 					<article>
-						<h3>Information Security Lab</h3>
+						<h3>Information Security Lab [<a href=https://github.com/Jernestos/Lab-Information-Security>Repository</a>]</h3>
 						<ul>
 							<li>
 							Security & Privacy in ML
@@ -114,7 +114,7 @@
 										Attack and defense on SCION network, written in <b>Go</b>.
 									</summary>
 									<ul>
-										<li>Staged a DDos attack on victim by reflecting and amplyfing traffic.</li>
+										<li>Staged a DDoS attack on victim by reflecting and amplyfing traffic.</li>
 										<li>Analysed adversarial traffic pattern to detect and protect against DDoS by implementing a firewall.</li>
 									</ul>
 								</details>
@@ -187,7 +187,8 @@
 					</article>
 
 					<article>
-						<h3>Tweet Sentiment Classifier</h3>
+						<section id="TSA"></section> 
+						<h3>Tweet Sentiment Classifier [<a href=https://github.com/Jernestos/TSA>Repository</a>]</h3>
 						Implemented a Tweet sentiment classifier that achieves a competitive <b>accuracy of over 90%</b> in <b>Python</b> and <b>PyTorch</b>; 
 						scientitic report written in <b>LaTeX</b>.
 						<ul>
@@ -232,8 +233,8 @@
 							<article>
 								<b>Network Security:</b>
 								<ul>
-									<li>Implemented a ACME client for the ACME protocol in <b>Python</b>.</li>
-									<li>Defend the Flag on a remote unix system using <b>Bash</b>.</li>
+									<li>Implemented a ACME client for the ACME protocol in <b>Python</b>. [<a href=https://github.com/Jernestos/ACME-Client>Repository</a>]</li> 
+									<li>Defend the Flag on a remote unix system using <b>Bash</b>. [<a href=https://github.com/Jernestos/DefendtheFlag>Repository</a>]</li> 
 								</ul>
 							</article> 
 
@@ -245,7 +246,7 @@
 
 
 							<article>
-								<b>Applied Cryptography Lab - Writeup:</b>
+								<b>Applied Cryptography Lab - Writeup:</b> [<a href=https://github.com/Jernestos/Applied-Crypto>Repository</a>]
 								<p><b><a href="#AppliedCrypto">Click here to see more.</a></b></p>
 							</article> 
 
@@ -255,22 +256,23 @@
 							</article> 
 
 							<article>
-								<b>Private key encryption scheme:</b>
+								<b>Private key encryption scheme:</b> [<a href=https://github.com/Jernestos/Asym-Crypto>Private repository</a>]
 								<p>Constructed a non-trivial self-inverse private key encryption scheme, complimented with an analysis of its robustness. Written in <b>C</b>.</p>
 							</article>
 
 							<article>
-								<b>Writeups to various CTFs and wargames:</b>
-								<p><a href=https://github.com/Jernestos/CTF> Ongoing - Private</a>.</p>
+								<b>Writeups to various CTFs and wargames:</b> [<a href=https://github.com/Jernestos/CTF>Private repository</a>]
+								<!-- <p><a href=https://github.com/Jernestos/CTF> Ongoing - Private</a>.</p> -->
+								<p></p>
 							</article>
 
 							<article>
-								<b>Compiler Design:</b>
+								<b>Compiler Design:</b> [<a href=https://github.com/Jernestos/Compiler-Design>Private repository</a>]
 								<p>Implemented a complete compiler in <b>OCaml</b> and <b>x86 assembly</b> for an object-oriented programming language for a realistic target machine.</p>
 							</article>
 
 							<article>
-								<b>Design of Digital Circuits - FPGA projects:</b>
+								<b>Design of Digital Circuits - FPGA projects:</b> [<a href=https://github.com/Jernestos/FPGA>Private repository</a>]
 								<p>Collection of various FPGA projects, written in <b>Verilog</b>.</p>
 							</article>
 
@@ -285,12 +287,12 @@
 							</article> -->
 
 							<article>
-								<b>Visual Computing:</b>
+								<b>Visual Computing:</b> [<a href=https://github.com/Jernestos/Visual-Computing>Private repository</a>]
 								<p>Collection of various projects and tasks, written in <b>Python</b> for the ETHZ Visual Computing lecture.</p>
 							</article>
 
 							<article>
-								<b>ETHZ lecture: Entrepreneurial Risks:</b>
+								<b>ETHZ lecture: Entrepreneurial Risks:</b> [<a href=https://github.com/Jernestos/Entrepreneurial-Risks>Private repository</a>]
 								<p>Written a report about: Accelerating human evolution through food, culture and aritifical intelligence.</p>
 							</article>
 							
@@ -303,7 +305,7 @@
 					<section id="AppliedCrypto">
 						<h2 style="text-align: center;">Applied Cryptography</h2>
 						<!-- <div class="row"> -->
-							Attacks written in <b>Python</b>.
+							Attacks written in <b>Python</b>. [<a href=https://github.com/Jernestos/Applied-Crypto>Repository</a>]
 							<br>
 							<br>
 							<ul>
@@ -354,17 +356,26 @@
 					<section id="ML">
 						<h2>Machine Intelligence</h2>
 
-						Written in <b>Python</b> and <b>PyTorch</b>.
+						Written in <b>Python</b>, <b>scikit-learn</b>, <b>PyTorch</b> and <b>Keras</b>.
+						<!-- <a href=https://github.com/Jernestos/Data-Science> Collection of public ML projects.</a> -->
 						<br><br>
 						<ul>
-							<li>
+							<li><a href="#TSA">Tweet Sentiment Classifier. [<a href=https://github.com/Jernestos/TSA>Repository</a>]</a></li>
+							<li>Implemented a Siamese Network, using triplet loss, to perform image similarity estimation, in <b>PyTorch</b> and <b>Keras</b>.</li>
+							<li>Predicted age of a brain from brain MRI features by first detecting outliers, then select features, followed by imputation of missing values, and last apply regression.</li>
+							<li>Performed heart rhythm classification from raw ECG signals of different lenght, sampled a 300Hz.</li>
+							<li>Performed segmentation of the mitral valve in echocardiography videos.</li>
+							<li>Performed regression using L1 and L2 regularizer, in <b>scikit-learn</b>.</li>
+							<li>Constructed a (deep) neural network classifier, using cross-entropy loss, in <b>scikit-learn</b>.</li>
+							
+							<!-- <li>
 								<article>
 									<b>Machine Learning:</b>
 									<p><a href=https://github.com/Jernestos/Data-Science> Collection of public ML projects.</a></p>
 									
 								</article>
-							</li>
-
+							</li> -->
+<!-- 
 							<li>
 								<article>
 									<b>Machine Learning:</b>
@@ -375,9 +386,14 @@
 							<li>
 								<article>
 									<b>Advanced Machine Learning:</b>
+									<ul>
+										<li>Predicted age from brain MRI features.</li>
+										<li>Performed ECG classification.</li>
+										<li>Performed mitral-valve segmentation.</li>
+									</ul>
 									<p>Ongoing</p>
 								</article> 
-							</li>
+							</li> -->
 						</ul>
 						
 						<ul class="actions">
@@ -387,11 +403,11 @@
 					</section>
 
 					<section id="Experience">
-						<h2 style="text-align: center;">Additionally non-project experience/knowledge in: </h2>
+						<h2 style="text-align: center;">Additional experience/knowledge in: </h2>
 						<ul>
 							<li>Digital Signatures</li>
 							<li>Cryptographic Protocols</li>
-							<li>Number Theory in Cryptography</li>
+							<!-- <li>Number Theory in Cryptography</li> -->
 							<!-- <li>Information Security</li> -->
 							<li>Computer Networks</li>
 							<li>Data Modelling and Databases</li>
