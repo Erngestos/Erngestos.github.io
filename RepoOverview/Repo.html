@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Credits to https://github.com/HimDek/GitHub-List-Repositories-HTML -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://gitlist.himdek.com/GitHubList.js"></script>
+
+		<style>
+			svg {
+			  vertical-align: middle;
+			}
+			
+			a {
+			  text-decoration: none;
+			}
+			
+			a:hover {
+			  text-decoration: underline;
+			}
+			
+			.box {
+			  border: 1px solid black;
+			  padding: 25px;
+			  margin: 20px;
+			}
+			
+			.stats span {
+			  display: inline-block;
+			  margin-right: 10px;
+			}
+			
+			ol {
+			  margin: 0px;
+			  padding: 0px;
+			  list-style-type: none;
+			}
+			</style>
+
 		<meta charset="UTF-8">
-		<title></title>
+		<title>Test</title>
 	</head>
 	<body>
 		Test website
-		<div class="github-card" data-github="Jernestos" data-width="400" data-height="318" data-theme="medium"></div>
-		<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+		<script>
+			listrepos("Jernestos", document.getElementById("ElementId")).then(reposcount => {
+			  // In this section, variable reposcount stores the total number of Repositories.
+			});
+		</script>
+		<div id="ElementId"></div>
 	</body>
 </html>
