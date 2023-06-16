@@ -56,7 +56,7 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	/* background-color: transparent; */
 	color: inherit;
 }
 
@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "IBM Plex Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		/* font-weight: bold; */
 		line-height: 1.75em;
@@ -124,7 +124,8 @@ input, select, textarea {
 	strong, b {
 		color:  #000000;
 		font-weight: bold;
-		text-decoration: underline;
+		/* text-decoration-thickness: 5px; */
+		/* text-decoration: underline; */
 	}
 
 	em, i {
